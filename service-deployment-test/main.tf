@@ -33,8 +33,8 @@ module "elastic-beanstalk-application" {
 }
 
 
-module "elastic-beanstalk-environment" {
-  source  = "cloudposse/elastic-beanstalk-environment/aws"
-  version = "0.51.2"
-  # insert the 5 required variables here
-}
+# module "elastic-beanstalk-environment" {
+#   source  = "cloudposse/elastic-beanstalk-environment/aws"
+#   version = "0.51.2"
+#   # insert the 5 required variables here
+# }
